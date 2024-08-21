@@ -1,1 +1,0 @@
-使用*来从FString获取一个TCHAR指针（即字符串的字符数组），然后将其传递给FName的构造函数。这是因为FName没有直接接受FString的构造函数，需要将FString转换为一个字符指针。
